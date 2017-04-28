@@ -3,7 +3,7 @@ function playSound(e) {
     const key = document.querySelector(`.key[data-key="${e.keyCode}"]`)
     if(!audio) return // stop the function
     audio.currentTime = 0 // rewind to the start
-    audio.play();
+    audio.play()
     key.classList.add('playing')
 }
 
@@ -13,6 +13,6 @@ function removeTransition(e){
 }
 
 const keys = document.querySelectorAll('.key')
-keys.forEach(key => key.addEventListener('transitionend', removeTransition));
+keys.forEach(key => key.addEventListener('transitionend', removeTransition))
 
 window.addEventListener('keydown', playSound)
