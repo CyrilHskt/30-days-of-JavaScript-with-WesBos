@@ -1,0 +1,22 @@
+{
+  "name": "30djs",
+  "version": "1.0.0",
+  "description": "Repository for 30 days JS from Wes Bos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CyrilHskt/30-days-of-JavaScript-with-WesBos.git"
+  },
+  "author": "CyrilHskt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CyrilHskt/30-days-of-JavaScript-with-WesBos/issues"
+  },
+  "homepage": "https://github.com/CyrilHskt/30-days-of-JavaScript-with-WesBos#readme",
+  "devDependencies": {
+    "jshint": "^2.9.4"
+  }
+}
