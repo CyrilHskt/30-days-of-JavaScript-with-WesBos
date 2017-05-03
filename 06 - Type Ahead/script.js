@@ -13,6 +13,8 @@ function findMatches(wordToMatch, cities) {
     });
 }
 
+
+
 function displayMatches() {
 
 }
