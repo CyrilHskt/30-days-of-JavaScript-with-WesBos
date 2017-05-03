@@ -13,11 +13,6 @@ function findMatches(wordToMatch, cities) {
     })
 }
 
-console.log('test');
-
-jyy
-
-
 function displayMatches() {
 
 }
