@@ -45,6 +45,3 @@
         ...comments.slice(index + 1)
     ];
     console.table(newComments);
-    console.error('dsqsdffdsfsddsf');
-    console.log(console);
-        
